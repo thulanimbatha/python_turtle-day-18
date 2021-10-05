@@ -9,7 +9,7 @@ def drawTri():
     spider.pencolor("silver")
     for _ in range(0, 3):
         spider.forward(100)
-        spider.left(120)
+        spider.right(120)
 
 '''Move in a square'''
 def drawSquare():
@@ -23,7 +23,7 @@ def drawPent():
     spider.pencolor("purple")
     for _ in range(0, 5):
         spider.forward(100)
-        spider.left(72)
+        spider.right(72)
 
 '''Move in a Hexagon'''
 def drawHex():
@@ -37,7 +37,7 @@ def drawHept():
     spider.pencolor("green")
     for _ in range(0, 7):
         spider.forward(100)
-        spider.left(51.43)
+        spider.right(51.43)
 
 '''Move in a Octagon'''
 def drawOct():
@@ -51,7 +51,7 @@ def drawNon():
     spider.pencolor("orange")
     for _ in range(0, 9):
         spider.forward(100)
-        spider.left(40)
+        spider.right(40)
 
 '''Move in a Decagon'''
 def drawDec():
