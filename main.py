@@ -4,14 +4,11 @@ from turtle import Turtle, Screen
 tmnt = Turtle()
 tmnt.shape("turtle")
 tmnt.color("turquoise") # change colour
-tmnt.forward(200)   # move Turtle 200 paces
-tmnt.right(90)  # turn turtle right 90 degrees
-tmnt.forward(200)
-tmnt.right(90)
-tmnt.forward(200)
-tmnt.right(45)
-tmnt.forward(200)
-tmnt.right(90)
+
+for _ in range(0,4):
+    tmnt.forward(200)   # move Turtle 200 paces
+    tmnt.right(90)  # turn turtle right 90 degrees
+
 
 
 
