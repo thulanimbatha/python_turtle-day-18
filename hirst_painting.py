@@ -15,6 +15,7 @@ tmnt.speed("fastest")
 '''MOVE TURTLE TO THE BOTTOM LEFT WITHOUT PEN LINE'''
 tmnt.setheading(230)
 tmnt.penup()
+tmnt.hideturtle()   # hide Turtle
 tmnt.forward(350)
 tmnt.setheading(0)
 
