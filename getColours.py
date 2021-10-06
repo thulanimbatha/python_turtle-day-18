@@ -10,4 +10,4 @@ for colour in colours:
     new_colour = (r, g, b)
     rgb_colours.append(new_colour)
 
-print(rgb_colours)
+# print(rgb_colours)
